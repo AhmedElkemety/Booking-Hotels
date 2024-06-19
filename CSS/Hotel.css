@@ -573,7 +573,7 @@ footer .container2 .bottom p b{
 /* media query */
 /* mobile */
 @media (max-width: 767px) {
-  header .container a {
+  header .container a:nth-child(4) {
     position: absolute;
     top:2px;
     left:2px;
@@ -588,7 +588,7 @@ footer .container2 .bottom p b{
     align-items: center;
     position: initial;
   }
-  header .container nav p:hover {
+  header .container nav a:hover {
     color: var(--click_color);
     transition-duration: .5s;
     padding-left: 5px;
@@ -634,7 +634,7 @@ footer .container2 .bottom p b{
   }
   .section3 .container2 {
     width: 390px;
-    height: 1731px;
+    height: 1400px;
   }
   .section3 .container2 .up .details h1{
     display: none;
@@ -647,8 +647,8 @@ footer .container2 .bottom p b{
   }
   .section3 .container2 .cards {
     grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(3,1fr);
-    row-gap: 30px;
+    grid-template-rows: repeat(3,450px);
+    row-gap: 10px;
   }
   .section3 .container2 .cards .card {
     scale: .7;
@@ -746,6 +746,9 @@ footer .container2 .bottom p b{
   footer .container2 .left {
     display: none;
   }
+  .section3 .container2 .cards .Honeymoon{
+    margin-top: 30px;
+  }
 }
 /* Medium */
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -790,6 +793,9 @@ footer .container2 .bottom p b{
   }
   footer .container2 .left {
     display: none;
+  }
+  .section3 .container2 .cards .Honeymoon, .section3 .container2 .cards .meetings{
+    margin-top: 30px;
   }
 }
 /* Large */
