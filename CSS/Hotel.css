@@ -721,7 +721,7 @@ footer .container2 .bottom p b{
   }
   .section3 .container2 {
     width: 400px;
-    height: 1731px;
+    height: 1800px;
   }
   .section3 .container2 .up .details h1{
     display: none;
@@ -736,9 +736,6 @@ footer .container2 .bottom p b{
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(3,1fr);
     row-gap: 30px;
-  }
-  .section3 .container2 .cards .Honeymoon, .section3 .container2 .cards .meetings{
-    margin-top: 30px;
   }
   footer .container2 {
     grid-template-columns: auto;
@@ -787,6 +784,9 @@ footer .container2 .bottom p b{
     grid-template-rows: repeat(2,1fr);
     row-gap: 30px;
     column-gap: 30px;
+  }
+  .section3 .container2 .cards .Honeymoon, .section3 .container2 .cards .meetings{
+    margin-top: 30px;
   }
   footer .container2 {
     grid-template-columns: auto;
