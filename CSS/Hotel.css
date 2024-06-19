@@ -12,6 +12,9 @@
 body {
   font-family: "Inter", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 ::selection {
   background-color: var(--click_color);
   color:beige;
@@ -52,13 +55,14 @@ header .container nav{
   -ms-border-radius: 18px;
   -o-border-radius: 18px;
 }
-header .container nav p{
+header .container nav a{
   font-size: 24px;
   line-height: 29.05px;
   font-weight: 400;
   color: var(--link_color);
+  text-decoration: none;
 }
-header .container nav p:hover {
+header .container nav a:hover {
   color: var(--click_color);
   transition-duration: .3s;
   cursor: pointer;
