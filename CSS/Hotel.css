@@ -170,7 +170,7 @@ header .container .nav-mobile {
     width: 100px;
     height: 100%;
     top: 10px;
-    right: -25px;
+    right: -40px;
   }
   header .container .nav-mobile .span2 {
     width: 30px;
@@ -209,13 +209,14 @@ header .container .nav-mobile .span2:hover  span{
     -o-border-radius: 18px;
     padding: 10px;
     border: 2px solid burlywood;
+    height: 320px;
 }
 header .container .nav-mobile .left .links a {
   text-decoration: none;
   display: inline-block;
   color: var(--link_color);
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 header .container .nav-mobile .left .links a:hover{
   padding-left: 5px;
@@ -639,6 +640,9 @@ main .section2 .container .item:hover{
   transition-duration: .5s;
   transition-timing-function: ease-out;
   opacity: 1;
+}
+main .section2 .container .meetings{
+  font-size: 22px;
 }
 /* start responsive */
 @media(max-width:900px){
